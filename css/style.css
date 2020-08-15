@@ -16,15 +16,7 @@ input:active, textarea:active, a:active {
 :focus {
  outline: medium none;
  }
- /*
-@font-face {
 
-font-family: "WebSymbolsLigaRegular";
-
-src: url('../fonts/websymbolsligaregular.eot') format("embedded-opentype"), url('../fonts/websymbolsligaregular.woff') format("woff"), url('../fonts/websymbolsligaregular.ttf') format("truetype"), url('../fonts/websymbolsligaregular.svg') format("svg");
-
-}
-*/
 a img {
  border: 0px none;
  }
@@ -648,15 +640,7 @@ input:active, textarea:active, a:active {
 :focus {
  outline: medium none;
  }
- /*
-@font-face {
 
-font-family: "WebSymbolsLigaRegular";
-
-src: url('../fonts/websymbolsligaregular_001.eot') format("embedded-opentype"), url('../fonts/websymbolsligaregular.woff') format("woff"), url('../fonts/websymbolsligaregular.ttf') format("truetype"), url('../fonts/websymbolsligaregular_001.svg') format("svg");
-
-}
-*/
 a img {
  border: 0px none;
  }
@@ -812,20 +796,6 @@ body {
  padding: 0px 1%;
  }
 }
-@media screen and (max-width: 240px) {
-
-}
-@font-face {
-
-font-family: "PT Sans";
-
-font-style: normal;
-
-font-weight: 400;
-
-src: local("PT Sans"), local("PTSans-Regular"), url('../fonts/ftlr1ww5qq9ui3f-pb4hxq.woff2') format("woff2");
-
-}
 
 
 .button {
@@ -834,4 +804,12 @@ src: local("PT Sans"), local("PTSans-Regular"), url('../fonts/ftlr1ww5qq9ui3f-pb
 	text-align: center;
 	display: block;
 	padding: 15px 0px 30px;
+}
+
+.product-img {
+	display: block;
+	width: 100%;
+	max-width: 560px;
+	margin: 0 auto 20px auto;
+	vertical-align: middle;
 }
